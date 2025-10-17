@@ -1,6 +1,6 @@
 {
     "configCheck": 109,
-    "copyCheck": 186,
+    "copyCheck": 178,
     "extensionCheck": 1,
     "gitignoreCheck": 35,
     "inferenceModelCheck": 25,
@@ -12,5 +12,5 @@
     "pathCheck": 704,
     "requirementsCheck": 35,
     "templateCheck": 1,
-    "venvRequirementsCheck": 12
+    "venvRequirementsCheck": 13
 }

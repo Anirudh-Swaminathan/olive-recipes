@@ -24,6 +24,8 @@ recipes:
       ep: OpenVINOExecutionProvider
       aitk:
         oliveFile: "phi3_5/openvino/Phi-3.5-mini-instruct-gpu-context-ov-dynamic.json"
+        requirementsPatches:
+          - OliveNightly
     - file: "phi3_5_ov_config.json"
       devices:
         - npu

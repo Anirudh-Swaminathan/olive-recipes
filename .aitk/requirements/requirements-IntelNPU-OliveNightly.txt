@@ -1,0 +1,1 @@
+git+https://github.com/microsoft/Olive.git@da24463e14ed976503dc5871572b285bc5ddc4b2#egg=olive_ai

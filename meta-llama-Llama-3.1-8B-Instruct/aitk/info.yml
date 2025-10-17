@@ -25,6 +25,8 @@ recipes:
       ep: OpenVINOExecutionProvider
       aitk:
         oliveFile: "llama3/openvino/Llama-3.1-8B-Instruct_context_ov_dynamic_sym_bkp_int8_sym.json"
+        requirementsPatches:
+          - OliveNightly
     - file: "llama3_1_trtrtx_config.json"
       device: gpu
       ep: NvTensorRTRTXExecutionProvider
