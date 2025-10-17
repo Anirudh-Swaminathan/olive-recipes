@@ -24,14 +24,14 @@ recipes:
       ep: OpenVINOExecutionProvider
       aitk:
         oliveFile: "phi3_5/openvino/Phi-3.5-mini-instruct-gpu-context-ov-dynamic.json"
-        requirementsPatches:
-          - OliveNightly
     - file: "phi3_5_ov_config.json"
       devices:
         - npu
       ep: OpenVINOExecutionProvider
       aitk:
         oliveFile: "phi3_5/openvino/Phi-3.5-mini-instruct-npu-context-ov-dynamic-sym-gs128-bkp-int8-sym.json"
+        requirementsPatches:
+          - OliveNightly
     - file: "phi3_5_trtrtx_config.json"
       device: gpu
       ep: NvTensorRTRTXExecutionProvider
